@@ -1,0 +1,168 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	margin:0px;
+	padding:0px;
+}
+
+h2.tut{
+	color:white;
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+	font-size:16px;
+	padding:12px 0 0 58px;
+	text-transform:uppercase;
+	
+	text-shadow:2px 1px 6px #333;
+}
+
+#twitter-ticker{
+	width:45%;
+	height:350px;
+	background:url(img/slickbg.png) no-repeat #f5f5f5;
+	color:#666666;
+	/* display:none;
+ */	
+	-moz-border-radius:10px 10px 6px 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius:6px;
+
+	text-align:left;
+	margin-left: 2%;
+	margin-right: 2%;
+	
+	float:left;
+}
+
+#twitter-ticker-friends{
+	width:45%;
+	height:350px;
+	background:url(img/slickbg.png) no-repeat #f5f5f5;
+	color:#666666;
+	display:none;
+	
+	-moz-border-radius:10px 10px 6px 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius:6px;
+
+	text-align:left;
+	margin-right: 2%;
+	margin-top: 0px;
+	float:right;
+}
+
+#main {
+padding:5px;
+}
+
+#follow {
+	clear:both; 
+	margin-left:2em;
+	font-weight: bold;
+}
+
+#tweet-container{
+	height:280px;
+	width:auto;
+	overflow:hidden;
+}
+
+#tweet-container-friends{
+	height:280px;
+	width:auto;
+	overflow:hidden;
+}
+
+
+#twitIcon{
+	position:absolute;
+	top:-25px;
+	left:-10px;
+	width:64px;
+	height:64px;
+}
+
+#top-bar{
+	height:45px;
+	background:url(img/top_bar.png) repeat-x;
+	border-bottom:1px solid white;
+	position:relative;
+	margin-bottom:8px;
+	
+	-moz-border-radius:6px 6px 0 0;
+}
+
+.tweet{
+	padding:5px;
+	margin:0 4px 4px;
+	
+	border:1px solid #F0F0F0;
+	background:url(img/transparent.png);
+	
+	width:auto;
+	overflow:hidden;
+}
+
+.tweet .avatar,
+.tweet .user,
+.tweet .time{
+	float:left;
+}
+
+.tweet .time{
+	text-transform:uppercase;
+	font-size:10px;
+	color:#AAAAAA;
+	white-space:nowrap;
+}
+
+
+.tweet .avatar img{
+	width:36px;
+	height:36px;
+	border:2px solid #eeeeee;
+	margin:0 5px 5px 0;
+}
+
+.tweet .txt{
+	clear:both;
+}
+
+.tweet .user{
+	font-weight:bold;
+}
+
+a, a:visited {
+	color:#00BBFF;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+#loading{
+	margin:100px 95px;
+}
+
+/* The styles below are only necessary for the demo page */
+
+p{
+	padding-top:7px;
+}
+
+body{
+	color:white;
+	font-size:13px;
+	background: #333333;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+	color:white;
+	font-size:36px;
+	font-weight:bold;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+}
+

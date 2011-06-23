@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Suivre Framasoft</title>
+
+<link rel="stylesheet" type="text/css" href="demo.css" />
+<link rel="stylesheet" type="text/css" href="jScrollPane/jScrollPane.css" /> 
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="jScrollPane/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="jScrollPane/jScrollPane-1.2.3.min.js"></script>
+<script type="text/javascript" src="script-framasoft.js"></script>
+
+    <script type="text/javascript" src="/framanav/microblog/jquery.zrssfeed.min.js"></script>
+ 
+<!--[if lt IE 7]>
+<style type="text/css">
+div.tweet {
+	background:none;
+    border:none;
+}
+
+div#twitIcon{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=img/twitter_64.png, sizingMethod=crop);
+}
+
+div#twitIcon img{
+	display:none;
+}
+</style>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div id="main">
+  
+	<div id="twitter-ticker">
+		<div id="top-bar">
+			<div id="twitIcon"><!-- <img src="img/twitter_64.png" width="64" height="64" alt="Twitter icon" /> --></div>
+			<h2 class="tut">Framasoft</h2>
+		</div>
+		<div id="tweet-container"><img id="loading" src="img/loading.gif" width="16" height="11" alt="Loading.." /></div>
+		<div id="scroll"></div>
+	</div>  
+  
+	<div id="twitter-ticker-friends">
+		<div id="top-bar">
+			<div id="twitIcon"><!-- <img src="img/twitter_64.png" width="64" height="64" alt="Twitter icon" /> --></div>
+			<h2 class="tut">Les amis</h2>
+		</div>
+		<div id="tweet-container-friends"><img id="loading" src="img/loading.gif" width="16" height="11" alt="Loading.." /></div>
+		<div id="scroll-friends"></div>
+	</div>
+	<div id="follow">Suivez-nous sur <a href="http://twitter.com/framasoft" title="Suivez Framasoft sur Twitter">Twitter</a> ou <a href="http://identi.ca/framasoft" title="Suivez Framasoft sur Identi.ca">Identi.ca</a></div>
+
+</div>
+</body>
+</html>
